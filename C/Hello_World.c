@@ -1,6 +1,10 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+#include <custom.h>
+
 int main(){
+
+	printf(CUSTOM_STRING);
 	char *H="Hello World !";
 	while( (*H) !='\0' ){
 		printf("%c",*H++);
@@ -12,7 +16,7 @@ int main(){
 	printf(" :This change has been made on local machine:\n");
 
 
-	printf(" :This line has been added in the First Branch: ");
+	printf(" :This line has been added in the First Branch: \n");
 
 
 
